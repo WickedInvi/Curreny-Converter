@@ -1,0 +1,48 @@
+body {
+  font-size: 16px;
+  background-image: url(./images/eduardo-soares-LR0kDki_tPo-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#container {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#para {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#myButton {
+  display: flex;
+  align-items: center;
+}
+
+select {
+  margin-left: 10px;
+  text-align-last: center;
+}
+
+input {
+  margin-left: 10px;
+
+  text-align: center;
+}
+
+.mini-container {
+  display: flex;
+  margin: 10px;
+}

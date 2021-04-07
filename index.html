@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <div id="main-container">
+      <h1>Currency Converter</h1>
+
+      <div id="container">
+        <div class="mini-container">
+          <span>convert from</span>
+          <select name="" id="convertFromSymbol">
+            <option value="" selected>
+              --Please choose an option--
+            </option>
+            <option value="EUR">EUR</option>
+          </select>
+        </div>
+
+        <div class="mini-container">
+          <span>convert to</span>
+          <select name="" id="convertToSymbol">
+            <option value="">--Please choose an option--</option>
+          </select>
+        </div>
+
+        <div class="mini-container">
+          <span>Amount to convert</span>
+          <input type="text" id="convertFromInput" />
+          <button id="myButton">Convert</button>
+        </div>
+      </div>
+
+      <p id="para"></p>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
